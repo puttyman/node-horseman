@@ -281,8 +281,8 @@ Gets the width of an element.
 #### .height(selector)
 Gets the height of an element.
 
-#### .screenshot(path)
-Saves a screenshot of the current page to the specified `path`. Useful for debugging.
+#### .screenshot(path, [, top, left, width, height])
+Saves a screenshot of the current page to the specified `path`. Useful for debugging. Use top, left, width and height to clip part of the page.
 
 #### .screenshotBase64(type)
 Returns a base64 encoded string representing the screenshot. Type must be one of 'PNG', 'GIF', or 'JPEG'.
